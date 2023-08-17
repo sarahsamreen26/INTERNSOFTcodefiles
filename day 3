@@ -40,3 +40,16 @@ public static void tests()
     System.out.println("Hello");
 }
 }
+
+package pack1;
+class D{  
+public static void tests()
+{
+    System.out.println("Hello");
+}
+    public static void main(String args[]){  
+     System.out.println("Hello Java");
+     System.out.println("Hello Java");
+     tests();
+     System.out.println("Hello Java");
+    }  
