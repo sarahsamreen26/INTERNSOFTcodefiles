@@ -3,4 +3,40 @@ class Simple{
     public static void main(String args[]){  
      System.out.println("Hello Java");  
     }  
-}n  
+}
+
+package pack2;
+class A{  
+    public static void main(String args[]){  
+     System.out.println("Hello Java");  
+    }  
+}
+
+package pack1;
+class B{  
+    public static void main(String args[]){  
+     System.out.println("Hello Java");
+     System.out.println("Hello Java");
+     System.out.println("Hello Java");
+    }  
+public static void tests()
+{
+    System.out.println("Hello");
+}
+
+package pack1;
+class C{ 
+public static void test()
+{
+    System.out.println("Hello");
+}
+    public static void main(String args[]){  
+     System.out.println("Hello Java");
+     System.out.println("Hello Java");
+     System.out.println("Hello Java");
+    }  
+public static void tests()
+{
+    System.out.println("Hello");
+}
+}
